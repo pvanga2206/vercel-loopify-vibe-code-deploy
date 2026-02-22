@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  background: #000;
+  color: #fff;
+}
+
+:root {
+  --font-figtree: 'Figtree', sans-serif;
+}
+
+@layer utilities {
+  .purple-glow {
+    box-shadow: 0 0 60px 20px rgba(129, 74, 200, 0.25),
+                0 0 120px 40px rgba(129, 74, 200, 0.1);
+  }
+
+  .badge-glow {
+    box-shadow: 0 0 12px rgba(129, 74, 200, 0.5);
+  }
+
+  .hero-radial {
+    background: radial-gradient(
+      ellipse 80% 60% at 50% -10%,
+      rgba(129, 74, 200, 0.25) 0%,
+      transparent 70%
+    );
+  }
+
+  .text-gradient {
+    background: linear-gradient(135deg, #fff 0%, rgba(255,255,255,0.7) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+}
