@@ -1,7 +1,8 @@
-node_modules/
-.next/
-.env
-.env.local
-.DS_Store
-package-lock.json
+**/node_modules/
+**/.next/
+**/.env
+**/.env.local
+**/.DS_Store
+**/package-lock.json
+**/next-env.d.ts
 npm-debug.log*

@@ -1,1 +1,0 @@
-self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{\"/Users/prasanthivanga/landing_page_2/landing_page/src/app/layout\":[\"static/media/de42cfb9a3b980ae-s.p.woff2\"]},\"appUsingSizeAdjust\":true,\"pagesUsingSizeAdjust\":false}"
