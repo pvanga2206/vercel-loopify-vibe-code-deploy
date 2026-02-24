@@ -4,7 +4,7 @@
 **Author:** Prasanthi Vanga · pvanga2206@gmail.com
 **Hackathon:** 48-Hour Vibe Coding Hackathon · February 21–23, 2026
 **Submission Deadline:** Tuesday, February 24, 2026 · 11:59 PM PT
-**Live URL:** https://vercel-loopify-vibe-code-deploy.vercel.app *(replace with your Vercel URL)*
+**Live URL:** [https://vercel-loopify-vibe-code-deploy.vercel.app](https://vercel-loopify-vibe-code-deploy.vercel.app/)
 **GitHub:** https://github.com/pvanga2206/vercel-loopify-vibe-code-deploy
 
 ---
