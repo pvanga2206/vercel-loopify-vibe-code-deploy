@@ -95,7 +95,7 @@ export function buildDailyDigestEmail(userName: string, reminders: Reminder[]): 
           <!-- CTA -->
           <tr>
             <td style="text-align:center;">
-              <a href="https://loopify.vercel.app/dashboard/reminders"
+              <a href="${process.env.NEXT_PUBLIC_APP_URL || 'https://loopify.vercel.app'}/dashboard/reminders"
                 style="display:inline-block;background:#4c6ef5;color:#fff;text-decoration:none;font-size:14px;font-weight:600;padding:12px 28px;border-radius:10px;box-shadow:0 4px 16px rgba(76,110,245,0.35);">
                 Open Dashboard →
               </a>
@@ -109,7 +109,7 @@ export function buildDailyDigestEmail(userName: string, reminders: Reminder[]): 
             <td style="text-align:center;border-top:1px solid rgba(255,255,255,0.06);padding-top:20px;">
               <p style="margin:0;font-size:12px;color:#475569;">
                 Loopify · Follow-Up & Networking Reminder Engine<br/>
-                <a href="https://loopify.vercel.app/dashboard/settings" style="color:#4c6ef5;text-decoration:none;">Manage notifications</a>
+                <a href="${process.env.NEXT_PUBLIC_APP_URL || 'https://loopify.vercel.app'}/dashboard/settings" style="color:#4c6ef5;text-decoration:none;">Manage notifications</a>
               </p>
             </td>
           </tr>
