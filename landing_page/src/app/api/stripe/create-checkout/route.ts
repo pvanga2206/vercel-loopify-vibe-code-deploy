@@ -32,8 +32,8 @@ export async function POST(req: NextRequest) {
         },
       ],
       metadata: { userId },
-      success_url: `${process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'}/dashboard/settings?upgraded=true`,
-      cancel_url: `${process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'}/dashboard/settings`,
+      success_url: `${process.env.NEXT_PUBLIC_APP_URL || new URL(req.url).origin}/dashboard/settings?upgraded=true`,
+      cancel_url: `${process.env.NEXT_PUBLIC_APP_URL || new URL(req.url).origin}/dashboard/settings`,
     })
 
     return NextResponse.json({ url: session.url })
